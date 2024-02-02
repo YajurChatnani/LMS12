@@ -15,9 +15,6 @@ def connect(connected):
                 user_name = input("Enter USERNAME for mysql (Generally \"root\"): ")
                 password = input("Enter PASSWORD for mysql: (Should not be General):")
 
-                host_name = "localhost"
-                user_name = "root"
-                password = "SQLdiary19."
 
                 try:
                     mydb = mysql.connector.connect(host=host_name,user=user_name,passwd=password)
